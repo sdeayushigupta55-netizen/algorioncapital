@@ -145,9 +145,9 @@ export default function AlgorionCapitalPremiumLanding() {
   const [scrolled, setScrolled] = useState(false);
   const [theme, setTheme] = useState("dark");
 
-  const loginUrl = "#";
-  const signupUrl = "#";
-  const contactUrl = "#contact";
+  const loginUrl = "https://portal.algorioncapital.com/user/login";
+  const signupUrl = "https://portal.algorioncapital.com/user/register";
+  const contactUrl = "https://portal.algorioncapital.com/contact";
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
