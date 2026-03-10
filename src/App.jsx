@@ -120,7 +120,7 @@ function FloatingGlow({ className = "", isDark = true }) {
 function SectionHeading({ eyebrow, title, desc, isDark }) {
   return (
     <div className="max-w-3xl mx-auto text-center">
-      <p className="text-cyan-300 uppercase tracking-[0.28em] text-xs font-semibold mb-4">
+      <p className="text-cyan-600  uppercase tracking-[0.28em] text-xs font-semibold mb-4">
         {eyebrow}
       </p>
       <h2
@@ -189,52 +189,48 @@ export default function AlgorionCapitalPremiumLanding() {
               scrolled ? "h-16" : "h-20"
             }`}
           >
-            <a href="#home" className="flex items-center gap-3 group min-w-0">
-              <div
-                className={`h-11 w-11 rounded-xl overflow-hidden shrink-0 ${
-                  isDark
-                    ? "bg-white/5 border border-white/10 shadow-[0_0_30px_rgba(59,130,246,0.18)]"
-                    : "bg-white border border-slate-200 shadow-sm"
-                }`}
-              >
-                <img
-                  src={logo}
-                  alt="Algorion Capital logo"
-                  className="h-full w-full object-contain p-1"
-                />
-              </div>
-              <div className="min-w-0">
-                <p
-                  className={`text-lg sm:text-xl font-semibold tracking-wide leading-tight ${
-                    isDark ? "text-white" : "text-slate-900"
-                  }`}
-                >
-                  Algorion Capital
-                </p>
-                <p className="text-[11px] uppercase tracking-[0.28em] text-cyan-300/80">
-                  Smart Trading. Global Reach.
-                </p>
-              </div>
-            </a>
+         <a href="#home" className="flex items-center gap-3 group min-w-0">
+
+  <img
+    src={logo}
+    alt="Algorion Capital logo"
+    className="h-10 md:h-12 w-auto object-contain"
+  />
+
+  <div className="min-w-0">
+    <p
+      className={`text-lg sm:text-xl font-semibold tracking-wide leading-tight ${
+        isDark ? "text-white" : "text-slate-900"
+      }`}
+    >
+      Algorion Capital
+    </p>
+
+    <p className="text-[11px] uppercase tracking-[0.28em] text-cyan-600/80">
+      Smart Trading. Global Reach.
+    </p>
+  </div>
+
+</a>
 
             <nav
               className={`hidden md:flex items-center gap-8 text-sm ${
                 isDark ? "text-slate-200" : "text-slate-700"
               }`}
             >
-              <a href="#home" className="hover:text-cyan-300 transition-colors">
+              <a href="#home" className="hover:text-cyan-600  transition-colors">
                 Home
               </a>
-              <a href="#about" className="hover:text-cyan-300 transition-colors">
+              <a href="#about" className="hover:text-cyan-600  transition-colors">
                 About Us
               </a>
-              <a href="#markets" className="hover:text-cyan-300 transition-colors">
+              <a href="#markets" className="hover:text-cyan-600  transition-colors">
                 Markets
               </a>
-              <a href="#accounts" className="hover:text-cyan-300 transition-colors">
+              <a href="#accounts" className="hover:text-cyan-600  transition-colors">
                 Accounts
               </a>
-              <a href="#contact" className="hover:text-cyan-300 transition-colors">
+              <a href="#contact" className="hover:text-cyan-600  transition-colors">
                 Contact Us
               </a>
             </nav>
@@ -290,11 +286,11 @@ export default function AlgorionCapitalPremiumLanding() {
                 transition={{ duration: 0.7 }}
                 className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs uppercase tracking-[0.22em] ${
                   isDark
-                    ? "border border-cyan-400/20 bg-cyan-400/10 text-cyan-200"
+                    ? "border border-cyan-400/20 bg-cyan-400/10 text-cyan-600"
                     : "border border-cyan-300/40 bg-cyan-50 text-cyan-700"
                 }`}
               >
-                <span className="inline-block h-2 w-2 rounded-full bg-cyan-300 animate-pulse" />
+                <span className="inline-block h-2 w-2 rounded-full bg-cyan-600 animate-pulse" />
                 Premium Multi-Asset Trading Experience
               </motion.div>
 
@@ -398,7 +394,7 @@ export default function AlgorionCapitalPremiumLanding() {
                   }`}
                 >
                   <div>
-                    <p className="text-sm text-cyan-300">Live Market Snapshot</p>
+                    <p className="text-sm text-cyan-600 ">Live Market Snapshot</p>
                     <h3
                       className={`text-xl font-semibold mt-1 ${
                         isDark ? "text-white" : "text-slate-900"
@@ -586,7 +582,7 @@ export default function AlgorionCapitalPremiumLanding() {
                     : "border border-slate-200 bg-white shadow-[0_12px_40px_rgba(148,163,184,0.14)]"
                 }`}
               >
-                <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-400/25 to-blue-500/20 text-cyan-200 border border-cyan-300/20">
+                <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-400/25 to-blue-500/20 text-cyan-600 border border-cyan-300/20">
                   {feature.icon}
                 </div>
                 <h3
@@ -643,7 +639,7 @@ export default function AlgorionCapitalPremiumLanding() {
                       : "border border-slate-200 bg-white shadow-sm"
                   }`}
                 >
-                  <div className="text-cyan-300 text-sm uppercase tracking-[0.22em]">
+                  <div className="text-cyan-600  text-sm uppercase tracking-[0.22em]">
                     {String(i + 1).padStart(2, "0")}
                   </div>
                   <h3
@@ -773,7 +769,7 @@ export default function AlgorionCapitalPremiumLanding() {
             >
               <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-10 items-center">
                 <div>
-                  <p className="text-cyan-300 uppercase tracking-[0.28em] text-xs font-semibold">
+                  <p className="text-cyan-600  uppercase tracking-[0.28em] text-xs font-semibold">
                     Start Trading Today
                   </p>
                   <h2
@@ -897,33 +893,29 @@ export default function AlgorionCapitalPremiumLanding() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-16">
           <div className="grid lg:grid-cols-[1.15fr_0.85fr] gap-10">
             <div>
-              <div className="flex items-center gap-3">
-                <div
-                  className={`h-12 w-12 rounded-xl overflow-hidden ${
-                    isDark
-                      ? "bg-white/5 border border-white/10"
-                      : "bg-white border border-slate-200"
-                  }`}
-                >
-                  <img
-                    src={logo}
-                    alt="Algorion Capital logo"
-                    className="h-full w-full object-contain p-1"
-                  />
-                </div>
-                <div>
-                  <h3
-                    className={`text-2xl font-semibold ${
-                      isDark ? "text-white" : "text-slate-900"
-                    }`}
-                  >
-                    Algorion Capital
-                  </h3>
-                  <p className="text-cyan-300 text-xs uppercase tracking-[0.28em] mt-1">
-                    Smart Trading • Global Reach • Premium Experience
-                  </p>
-                </div>
-              </div>
+             <div className="flex items-center gap-4">
+
+  <img
+    src={logo}
+    alt="Algorion Capital logo"
+    className="h-12 md:h-14 w-auto object-contain"
+  />
+
+  <div>
+    <h3
+      className={`text-2xl font-semibold ${
+        isDark ? "text-white" : "text-slate-900"
+      }`}
+    >
+      Algorion Capital
+    </h3>
+
+    <p className="text-cyan-600 text-xs uppercase tracking-[0.28em] mt-1">
+      Smart Trading • Global Reach • Premium Experience
+    </p>
+  </div>
+
+</div>
 
               <p
                 className={`mt-6 max-w-2xl leading-8 ${
@@ -939,10 +931,10 @@ export default function AlgorionCapitalPremiumLanding() {
 
               <div className="mt-8 grid sm:grid-cols-2 gap-4 max-w-3xl">
                 {[
-                  [<Mail className="h-5 w-5 text-cyan-300 mt-1" />, "Email", "support@algorioncapital.com"],
-                  [<Phone className="h-5 w-5 text-cyan-300 mt-1" />, "Support", "24/5 Client Assistance"],
-                  [<Globe className="h-5 w-5 text-cyan-300 mt-1" />, "Markets", "Forex, Metals, Indices"],
-                  [<MapPin className="h-5 w-5 text-cyan-300 mt-1" />, "Contact", "Get in touch through your support page"],
+                  [<Mail className="h-5 w-5 text-cyan-600  mt-1" />, "Email", "support@algorioncapital.com"],
+                  [<Phone className="h-5 w-5 text-cyan-600  mt-1" />, "Support", "24/5 Client Assistance"],
+                  [<Globe className="h-5 w-5 text-cyan-600  mt-1" />, "Markets", "Forex, Metals, Indices"],
+                  [<MapPin className="h-5 w-5 text-cyan-600  mt-1" />, "Contact", "Get in touch through your support page"],
                 ].map(([icon, label, value]) => (
                   <div
                     key={label}
@@ -981,7 +973,7 @@ export default function AlgorionCapitalPremiumLanding() {
                   >
                     {links.map((link) => (
                       <li key={link}>
-                        <a href="#" className="hover:text-cyan-300 transition-colors">
+                        <a href="#" className="hover:text-cyan-600  transition-colors">
                           {link}
                         </a>
                       </li>
