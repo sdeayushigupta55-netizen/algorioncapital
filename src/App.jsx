@@ -985,14 +985,14 @@ export default function AlgorionCapitalPremiumLanding() {
           </div>
 
           <div
-            className={`mt-12 pt-6 border-t flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-sm ${
+            className={`mt-12 pt-6 border-t flex flex-col md:flex-row items-start md:items-center justify-center gap-4 text-sm ${
               isDark
                 ? "border-white/10 text-slate-400"
                 : "border-slate-200 text-slate-500"
             }`}
           >
             <p>© 2026 Algorion Capital. All rights reserved.</p>
-            <p>This landing page is a premium website concept for client presentation and integration.</p>
+           
           </div>
         </div>
       </footer>
