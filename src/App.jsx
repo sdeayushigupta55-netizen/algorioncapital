@@ -911,7 +911,7 @@ export default function AlgorionCapitalPremiumLanding() {
     </h3>
 
     <p className="text-cyan-600 text-xs uppercase tracking-[0.28em] mt-1">
-      Smart Trading. Global Reach. 
+      Smart Trading • Global Reach • Premium Experience 
     </p>
   </div>
 
